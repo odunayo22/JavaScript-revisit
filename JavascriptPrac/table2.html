@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetching nd Sort/Filter Data</title>
+    <link rel="stylesheet" href="table2.css">
+</head>
+<body>
+    <input type="text" id="nameFilter" placeholder="Filter by Name"/>
+    <table id="table-body">
+        <thead>
+            <tr class="row">
+                
+                <th>ID</th>
+                <th>Name<button id="sort" onclick="sortUsers()">Sort</button></th>
+                <th>Username</th>
+                <th>Email</th>                                              
+            </tr>
+            
+        </thead>
+
+        <tbody id="table-data">
+
+        </tbody>
+    </table>
+
+    <script src = "table2.js"></script>
+</body>
+</html>
